@@ -1,1 +1,1 @@
-prompts
+Think you're the organizer of a Dev conference and you're creating a registration page for attendees. You've already created the registration page, speaker page, and pricing page. Now you need to add one more page. Create one more page image for this registration page.
