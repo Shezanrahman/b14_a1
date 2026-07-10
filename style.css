@@ -108,3 +108,78 @@ body{
     color: #575757;
 }
 /*Speaker end*/
+/*Secure start*/
+.secure{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.secure_head{
+    margin: 50px;
+}
+.secure_head p{
+    font-size: 11px;
+    color: #575757;
+    margin-top: 10px;
+}
+.secure_pricing{
+    display: flex;
+    margin: 0 0 100px 0;
+    gap: 15px;
+}
+.standard,.pro,.team{
+    padding: 25px;
+    border: 1px solid gainsboro;
+    border-radius: 15px;
+    text-align: left;
+}
+.standard span,.pro span,.team span{
+    margin-bottom: 10px;
+    font-size: 10px;
+    color: #918b8b;
+    font-weight: 600;
+}
+.standard p,.pro p,.team p{
+    margin-bottom: 20px;
+    font-size: 10px;
+    color: #918b8b;
+    font-weight: 600;
+}
+.standard hr,.pro hr,.team hr{
+    margin-bottom: 20px;
+    color: #918b8b;
+}
+.standard ul li,.pro ul li,.team ul li{
+    font-size: 10px;
+    margin: 10px 15px;
+}
+.standard button,.pro button,.team button{
+    background-color: white;
+    color: #1D4ED8;
+    border: 1.4px solid #1D4ED8;
+    margin-top: 10px;
+    padding: 7px 70px;
+}
+.pro{
+    background-color: #0D1B2A;
+    color: white;
+}
+.pro span{
+    color: #93C5FD;
+}
+.pro button{
+    background-color: #2563EB;
+    color: #ffffff;
+    border: none;
+    padding: 7px 90px;
+}
+.team{
+    background-color: #E5E7EB;
+}
+.team button{
+    border-color: #0D1B2A;
+    color: black;
+}
+/*Secure end*/
