@@ -233,7 +233,7 @@ body{
 .expect_info{
     display: flex;
     flex-direction: column;
-    border: 1px solid black;
+    border: 1px solid rgb(38, 141, 189);
     border-radius: 10px;
     margin: 10px 8px 10px 0;
     padding: 10px 14px;
@@ -257,6 +257,7 @@ body{
     overflow: hidden;
     margin: 10px 10px 10px 0px;
     margin-bottom: 10px;
+    border: 1px solid rgb(38, 141, 189);
 }
 .direction_btn{
     padding: 7px 15px;
@@ -265,3 +266,22 @@ body{
     border: .5px solid rgb(38, 141, 189);
 }
 /*venue end*/
+.footer_parent{
+    background-color: #0D1B2A;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:5px 20px;
+}
+.social_icons{
+    display: flex;
+    list-style: none;
+}
+.footer_copyright{
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    padding: 10px;
+}
