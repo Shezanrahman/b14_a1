@@ -39,10 +39,9 @@ body{
 /*Nav end*/
 /*Home start*/
 .home_info{
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     text-align: center;
     color: white;
     background-image: linear-gradient(
@@ -54,20 +53,58 @@ body{
     background-position: center;
 }
 .home_info h1{
-    margin-bottom: 15px;
+    margin: 80px 0 15px 0;
     font-size: 50px;
     font-weight: 700;
 }
 .home_info p{
-    max-width: 700px;
-    margin:0px auto 50px auto;
+    max-width: 550px;
+    margin:0px auto 250px auto;
     font-size: 15px;
 }
 .home_info h1 em{
     font-style: italic;
 }
 .home_btn{
-    margin-top: 50px;
+    margin-bottom: 40px;
     padding:18px 50px;
 }
 /*Home end*/
+/*Speaker start*/
+.speakers_parent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.speakers_parent h1{
+    margin: 35px;
+    font-size: 45px;
+    font-weight: 700;
+}
+.speakers{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 25px;
+}
+.speaker_profile{
+    border:2px solid rgb(238, 233, 233);
+    border-radius: 10px;
+    overflow: hidden;
+}
+.speakers_name{
+    margin: 20px;
+}
+.speakers_name span{
+    color: blue;
+    font-size: 13px;
+    font-weight: 450;
+}
+.speaker_profile h3{
+    margin: 10px 0;
+    font-weight: 750;
+}
+.speaker_profile p{
+    font-size: 13px;
+    color: #575757;
+}
+/*Speaker end*/
