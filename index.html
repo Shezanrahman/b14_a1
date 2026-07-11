@@ -15,6 +15,7 @@
 </head>
 <body>
     <header>
+        <!--Home section start-->
         <section class="home">
             <!--Nav section start-->
             <nav>
@@ -24,20 +25,20 @@
                     </div>
                     <div>
                         <ul class="nav_items">
-                            <li><a href="#">Speakers</a></li>
-                            <li><a href="#">Schedule</a></li>
-                            <li><a href="#">Tracks</a></li>
-                            <li><a href="#">Venue</a></li>
-                            <li><a href="#">Blog</a></li>
+                            <li><a href="#spk">Speakers</a></li>
+                            <li><a href="#ven">Schedule</a></li>
+                            <li><a href="#sqr">Tracks</a></li>
+                            <li><a href="#ven">Venue</a></li>
+                            <li><a href="#ftr">Blog</a></li>
                         </ul>
                     </div>
                     <div>
-                        <button class="common_btn">Register Now</button>
+                        <button class="nav_btn common_btn">Register Now</button>
                     </div>
                 </div>
             </nav>
             <!--Nav section end-->
-            <!--Home section start-->
+            <!--Homeinfo section start-->
             <div class="home_info">
                 <div>
                     <h1>Code. <em>Connect.</em> Create</h1>
@@ -47,14 +48,15 @@
                     <button class="home_btn common_btn"><h3>Register Now</h3></button>
                 </div>
             </div>
+            <!--Homeinfo section end-->
         </section>
+        <!--Home section end-->
         <!--Speaker section start-->
-        <section class="speakers_parent">
+        <section id="spk" class="speakers_parent">
             <h1>Meet the Speakers</h1>
             <div class="speakers">
                 <div class="speaker_profile">
-                    <img src="./assets/andrej.png" alt="">
-                    <p></p>
+                    <img src="./assets/andrej.png" alt="andrej">
                     <div class="speakers_name">
                         <span>AI / ML</span>
                         <h3>Andrrej Karpathy</h3>
@@ -62,8 +64,7 @@
                     </div>
                 </div>
                 <div class="speaker_profile">
-                    <img src="./assets/demis.png" alt="">
-                    <p></p>
+                    <img src="./assets/demis.png" alt="demis">
                     <div class="speakers_name">
                         <span>CLOUD & DEVOPS</span>
                         <h3>Andrrej Karpathy</h3>
@@ -71,8 +72,7 @@
                     </div>
                 </div>
                 <div class="speaker_profile">
-                    <img src="./assets/gary.png" alt="">
-                    <p></p>
+                    <img src="./assets/gary.png" alt="gary">
                     <div class="speakers_name">
                         <span>FRONTEND</span>
                         <h3>Andrrej Karpathy</h3>
@@ -80,8 +80,7 @@
                     </div>
                 </div>
                 <div class="speaker_profile">
-                    <img src="./assets/mustafa.png" alt="">
-                    <p></p>
+                    <img src="./assets/mustafa.png" alt="mustafa">
                     <div class="speakers_name">
                         <span>SECURITY</span>
                         <h3>Andrrej Karpathy</h3>
@@ -92,7 +91,7 @@
         </section>
         <!--Speaker section end-->
         <!--Secure section start-->
-        <section class="secure_parent">
+        <section id="sqr" class="secure_parent">
             <div class="secure">
                 <div class="secure_head">
                     <h1>Secure Your Spot</h1>
@@ -164,7 +163,7 @@
         <!--Secure section end-->
         <hr>
         <!--Venue section start-->
-        <section class="venue_parent">
+        <section id="ven" class="venue_parent">
             <div class="venue">
                 <div class="venue_left">
                     <span class="gradient_text">THE VENUE</span>
@@ -172,11 +171,11 @@
                     <span class="gradient_text">Developers</span></h1>
                     <p class="venue_about">DevCon 2026 will take place in the heart of city at TechHub Convention Center, a state-of-the-art venue designed for innovation,learning and connection.</p>
                     <div class="event_time">
-                        <img src="./assets/schedule.png" alt="">
+                        <img src="./assets/schedule.png" alt="T">
                         <p> 12-14 September.2026</p>
                     </div>
                     <div class="event_location">
-                        <img src="./assets/location.png" alt="">
+                        <img src="./assets/location.png" alt="L">
                         <div>
                             <p>Techhub Convention Center</p> 
                             <p>123 Innovation Drive,Dhaka,Bangladesh</p>
@@ -184,28 +183,28 @@
                     </div>
                 </div>
                 <div class="venue_right">
-                    <img src="./assets/techhub.png" alt="">
+                    <img src="./assets/techhub.png" alt="techhub">
                 </div>
                 <div class="venue_down_left">
                     <h3>What to <span class="gradient_text">Expect</span></h3>
                     <div class="expect">
                         <div class="expect_info">
-                            <img src="./assets/crowd.png" alt="">
+                            <img src="./assets/crowd.png" alt="s">
                             <h5>Spacious Auditorium</h5>
                             <p>Comfortable seating with excellent views and sound</p>
                         </div>
                         <div class="expect_info">
-                            <img src="./assets/wifi.png" alt="">
+                            <img src="./assets/wifi.png" alt="wifi">
                             <h5>High Speed W-Fi</h5>
                             <p>Stay connected though the event and enjoy day.</p>
                         </div>
                         <div class="expect_info">
-                            <img src="./assets/refreshment.png" alt="">
+                            <img src="./assets/refreshment.png" alt="r">
                             <h5>Refreshment</h5>
                             <p>Enjoy meals snacks and beverage though the day</p>
                         </div>
                         <div class="expect_info">
-                            <img src="./assets/network.png" alt="">
+                            <img src="./assets/network.png" alt="n">
                             <h5>Networking Areas</h5>
                             <p>Connect, collaborate and grow with fellow developers</p>
                         </div>
@@ -213,13 +212,14 @@
                 </div>
                 <div class="venue_down_right">
                     <h3>Find us</h3>
-                    <img src="./assets/techub location.png" alt="">
+                    <img src="./assets/techub location.png" alt="location">
                     <button class="direction_btn">Get directions</button>
                 </div>
             </div>
         </section>
         <!--Venue section end-->
     </header>
+    <!--Footer section start-->
     <footer class="footer_parent">
         <div class="footer">
             <div class="footer_logo"><img src="./assets//footer-logo.png" alt=""></div>
@@ -232,10 +232,11 @@
                 </ul>
             </div>
         </div>
-        <div class="footer_down">
+        <div id="ftr" class="footer_down">
             <hr>
             <div class="footer_copyright">© 2026 DevConf. All rights reserved.</div>
         </div>
     </footer>
+    <!--Footer section end-->
 </body>
 </html>

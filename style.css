@@ -17,8 +17,8 @@ body{
 }
 /*Nav start*/
 .nav_parent{
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
     margin: 12px 100px;
     align-items: center;
 }
@@ -28,6 +28,7 @@ body{
 }
 .nav_items{
     display: flex;
+    justify-self:center;
     list-style: none;
     gap: 20px;
 }
@@ -35,6 +36,10 @@ body{
     font-size: 12px;
     color:#575757;
     text-decoration: none;
+}
+.nav_btn{
+    display: flex;
+    justify-self: end;
 }
 /*Nav end*/
 /*Home start*/
@@ -155,6 +160,15 @@ body{
     font-size: 10px;
     margin: 10px 15px;
 }
+.standard ul li::marker{
+    color: #2563EB;
+}
+.pro ul li::marker{
+    color: #2563EB;
+}
+.team ul li::marker{
+    color: #2563EB;
+}
 .standard button,.pro button,.team button{
     background-color: white;
     color: #1D4ED8;
@@ -266,6 +280,7 @@ body{
     border: .5px solid rgb(38, 141, 189);
 }
 /*venue end*/
+/*footer start*/
 .footer_parent{
     background-color: #0D1B2A;
 }
@@ -285,3 +300,4 @@ body{
     text-align: center;
     padding: 10px;
 }
+/*footer end*/
